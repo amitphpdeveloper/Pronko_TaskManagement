@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * MaxPronko Consulting
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@eadesign.ro so we can send you a copy immediately.
+ *
+ * @category    MaxPronko_TaskManagement
+ * @copyright   Copyright (c) 2018 MaxPronko Consulting.
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+		<resources>
+			<resource id="Magento_Backend::admin">
+				<resource id="Pronko_TaskManagement::TaskManagement" sortOrder="10" title="Pronko TaskManagement">
+					<resource id="Pronko_TaskManagement::manage_task" title="Manage Task" sortOrder="1" translate="Manage Task"/>
+                    <resource id="Pronko_TaskManagement::TaskManagement_save" sortOrder="10" title="Save Task"/>
+					<resource id="Pronko_TaskManagement::TaskManagement_delete" sortOrder="20" title="Delete Task"/>
+					<resource id="Pronko_TaskManagement::TaskManagement_update" sortOrder="30" title="Update Task"/>
+					<resource id="Pronko_TaskManagement::TaskManagement_view" sortOrder="40" title="View Task"/>
+				</resource>
+			</resource>
+		</resources>
+	</acl>
+</config>

@@ -1,0 +1,22 @@
+{
+    "name": "pronko/module-taskmanagement",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "developer.amit.php@gmail.com",
+            "name": "Amit Solanki"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pronko\\TaskManagement\\": ""
+        }
+    }
+}
